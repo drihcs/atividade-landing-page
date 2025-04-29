@@ -6,12 +6,13 @@ class ComponentsLoader {
     constructor() {
         this.componentsPath = 'components/';
         this.components = [
+            { id: 'footer', file: 'cabecalho.html' }
             { id: 'section1', file: 'elias.html' }, 
             { id: 'section2', file: 'vinicius.html' },
             { id: 'section3', file: 'adriana.html' },
             { id: 'section4', file: 'marcos.html' },
             { id: 'section5', file: 'daniel.html' },
-            { id: 'footer-container', file: 'footer.html' }
+            { id: 'footer', file: 'footer.html' }
         ];
     }
 
