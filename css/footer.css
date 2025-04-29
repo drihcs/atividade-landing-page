@@ -116,12 +116,14 @@
 
 .footer-social {
     display: flex;
+    justify-content: left;
+    align-items: center;
     gap: 15px;
 }
 
 .social-icon {
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     width: 36px;
     height: 36px;
