@@ -1,20 +1,31 @@
 .section4 {
   padding: 60px 20px;
   background-color: #f9f9f9;
-  overflow-x: auto; /* rolagem horizontal se necessário */
 }
 
 .container-section4 {
-  display: flex;
-  flex-wrap: nowrap; /* impede quebra de linha */
-  gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
+.title-section4 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: var(--color-primary);
+  text-align: center;
+}
+
+/* container só para os blocos */
+.blocks-container {
+  display: flex;
+  flex-wrap: nowrap; /* impede quebra entre blocos */
+  gap: 20px;
+  overflow-x: auto; /* rolagem se não couberem na tela */
+}
+
 .block {
   background-color: #fff;
-  flex: 0 0 300px; /* largura fixa para os blocos */
+  flex: 0 0 300px; /* largura fixa */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
