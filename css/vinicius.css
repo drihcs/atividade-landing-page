@@ -1,0 +1,43 @@
+
+.section2 {
+    padding: 60px 0;
+    margin: 15px;
+}
+
+.container-section2 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width:50vw;
+}
+
+.section2-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.section2-title {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: var(--color-primary);
+    display:flex;
+    justify-content: left;
+}
+
+.section2-text {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.section2-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.section2-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

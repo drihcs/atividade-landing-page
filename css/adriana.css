@@ -9,3 +9,30 @@ body {
     line-height: 1.6;
     color: var(--color-secondary);
 }
+
+.container {
+    display: block;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
