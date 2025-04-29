@@ -41,12 +41,8 @@
     margin-bottom: 15px;
   }
   
-  .produtos-section3 button {
-    padding: 10px 20px;
-    background-color: #0077cc;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  .dropdown-icon {
+    font-size: 10px;
+    margin-left: 3px;
   }
   
