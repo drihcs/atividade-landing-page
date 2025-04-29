@@ -1,0 +1,35 @@
+.section4 {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .container-section4 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .block {
+    background-color: #fff;
+    flex: 1 1 calc(33.333% - 20px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    min-width: 260px;
+  }
+  
+  .info {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .paragraph {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
