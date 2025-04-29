@@ -1,0 +1,43 @@
+.header {
+    padding: 15px 0;
+  
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--color-secondary);
+    font-size: 15px;
+    transition: var(--transition);
+}
+
+.main-nav a:hover {
+    color: var(--color-accent);
+}
+
+.dropdown-icon {
+    font-size: 10px;
+    margin-left: 3px;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
